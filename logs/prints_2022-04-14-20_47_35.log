@@ -1,0 +1,6 @@
+20:47:35.817 [main] INFO  Project.baseTest - Properties File has been loaded
+20:47:38.702 [main] INFO  Project.baseTest - Chrome Browser has been initialized
+20:47:38.756 [main] INFO  Project.baseTest - Implicit Timeout of 10 sec is provided
+20:47:52.527 [main] INFO  Project.baseTest - Multi Dimensional Array has been initialized
+20:47:52.527 [main] INFO  Project.baseTest - Multi Dimensional Array has been initialized and the data has been returned to repsective Method
+20:48:02.576 [main] INFO  Project.baseTest - All the Steps have been Success

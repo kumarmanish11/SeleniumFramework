@@ -1,0 +1,12 @@
+16:19:30.079 [main] INFO  Project.baseTest - The Method Test has been Started
+16:19:30.097 [main] INFO  Project.baseTest - Properties File has been loaded
+16:19:33.114 [main] INFO  Project.baseTest - Chrome Browser has been initialized
+16:19:33.143 [main] INFO  Project.baseTest - Implicit Timeout of 10 sec is provided
+16:19:46.131 [main] INFO  Project.baseTest - The Method WebsiteToOpen has been Succesfull
+16:19:46.151 [main] INFO  Project.baseTest - Multi Dimensional Array has been initialized
+16:19:46.152 [main] INFO  Project.baseTest - Multi Dimensional Array has been initialized and the data has been returned to repsective Method
+16:19:47.133 [main] INFO  Project.baseTest - The Method loginAuth has been Succesfull
+16:19:49.245 [main] INFO  Project.baseTest - The Method loginAuth has been Succesfull
+16:19:50.859 [main] INFO  Project.baseTest - The Method loginAuth has been Succesfull
+16:19:53.764 [main] INFO  Project.baseTest - All the Steps have been Success
+16:19:53.765 [main] INFO  Project.baseTest - The Method Test has been Completed

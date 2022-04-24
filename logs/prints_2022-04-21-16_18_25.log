@@ -1,0 +1,6 @@
+16:18:25.511 [main] INFO  Project.baseTest - The Method Test has been Started
+16:18:25.528 [main] INFO  Project.baseTest - Properties File has been loaded
+16:18:36.897 [main] INFO  Project.baseTest - IE Browser has been initialized
+16:18:36.969 [main] INFO  Project.baseTest - Implicit Timeout of 10 sec is provided
+16:18:41.776 [main] ERROR Project.baseTest - The Method WebsiteToOpen has Failed
+16:18:43.895 [main] INFO  Project.baseTest - The Method Test has been Completed

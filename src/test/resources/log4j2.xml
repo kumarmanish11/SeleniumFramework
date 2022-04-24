@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<!-- BELOW IS TO DEFINE THE PATH FOR WHERE TO SAVE THE LOG4J LOG FILE -->
+	<Properties>
+		<Property name="basePath">C:/Users/Manish/eclipse-workspace/Framework_Project/logs/
+		</Property>
+		<Property name="pattern">${date:yyyy-MM-dd-HH_mm_ss}</Property>
+	</Properties>
+
+	<Appenders>
+		<!-- BELOW CODE OF ROLLING FILE HAS BEEN ADDED WHEN WE NEED TO PUSH THE ENTRIES TO A LOG FILE -->
+		<RollingFile name="File"
+			fileName="${basePath}/prints_${pattern}.log"
+			filePattern="${basePath}/prints-%d{yyyy-MM-dd}.log">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+				
+			<!-- BASED ON FILE SIZE YOU CAN CREATE MULTIPLE LOG 4J FILES  -->	
+			<SizeBasedTriggeringPolicy size="10MB" />
+		</RollingFile>
+
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+	</Appenders>
+
+	<Loggers>
+		<!-- ADDING THIS SPECIFICATION FOR REQ TO ONLY PRINT ERROR IN BELOW AND TRACE OUT FOR ALL OTHER CLASS IN DIFF PACKAGES -->
+		<Root level="info">
+			<AppenderRef ref="File" />
+		</Root>
+	</Loggers>
+</Configuration>
